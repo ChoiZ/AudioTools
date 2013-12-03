@@ -2,3 +2,9 @@ AudioTools
 ==========
 
 My Audio Tools in PHP
+
+rename.php
+----------
+
+usage: php rename.php filename_to_rename
+
