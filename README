@@ -8,3 +8,11 @@ rename.php
 
 usage: php rename.php filename_to_rename
 
+id3v2.php
+---------
+
+usage: php id3v2.php "artist - title.mp3"
+
+Require: id3v2
+
+Debian setup: apt-get install id3v2
