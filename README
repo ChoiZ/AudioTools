@@ -1,12 +1,17 @@
 AudioTools
 ==========
 
+"!http://travis-ci.org/[YOUR_GITHUB_USERNAME]/[YOUR_PROJECT_NAME].png!":http://travis-ci.org/[YOUR_GITHUB_USERNAME]/[YOUR_PROJECT_NAME]
+
 My Audio Tools in PHP
 
-rename.php
-----------
 
-usage: php rename.php filename_to_rename
+Rename file
+-----------
+
+usage: php process.php rename filename_to_rename
+
+
 
 id3v2.php
 ---------
