@@ -1,7 +1,7 @@
 AudioTools
 ==========
 
-"!http://travis-ci.org/[YOUR_GITHUB_USERNAME]/[YOUR_PROJECT_NAME].png!":http://travis-ci.org/[YOUR_GITHUB_USERNAME]/[YOUR_PROJECT_NAME]
+[![Build Status](http://travis-ci.org/ChoiZ/AudioTools.png)](http://travis-ci.org/ChoiZ/AudioTools)
 
 My Audio Tools in PHP
 
