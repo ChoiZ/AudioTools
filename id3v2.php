@@ -3,7 +3,8 @@
   * id3v2: Add id3 tags in mp3 file.
   *
   * Require: id3v2
-  *
+  * 
+  * @todo add class and tests
   * @author François LASSERRE <choiz@me.com>
   * @license GNU GPL {@link http://www.gnu.org/licenses/gpl.html}
   */
