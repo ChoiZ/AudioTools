@@ -65,6 +65,13 @@ class AudioFile {
     }
     /* }}} */
 
+    /* public undorename() {{{ */
+    /**
+     * undorename
+     *
+     * @access public
+     * @return bool
+     */
     public function undorename() {
 
         if (file_exists($this->rename) && rename($this->rename, $this->filename)) {
@@ -74,5 +81,6 @@ class AudioFile {
         return false;
 
     }
+    /* }}} */
 
 }
