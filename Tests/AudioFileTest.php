@@ -53,7 +53,7 @@ class AudioFileTest extends PHPUnit_Framework_TestCase {
      */
     public function test_tag() {
 
-        $file = new AudioFile('Artist - Title.mp3');
+        $file = new AudioFile('ARTIST - Title.mp3');
 
         $this->assertTrue($file->tagFile());
 
