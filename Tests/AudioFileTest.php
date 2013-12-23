@@ -55,7 +55,7 @@ class AudioFileTest extends PHPUnit_Framework_TestCase {
 
         $file = new AudioFile('ARTIST - Title.mp3');
 
-        $this->assertStringMatchesFormat('%a', $file->tagFile());
+        $this->assertEmpty($file->tagFile());
 
     }
     /* }}} */
