@@ -16,8 +16,8 @@ usage: php process.php rename filename_to_rename
 id3v2.php
 ---------
 
-usage: php id3v2.php "artist - title.mp3"
+usage: php process.php tag filename_to_tag
 
-Require: id3v2
+Require: id3v2 and mp3 file
 
 Debian setup: apt-get install id3v2

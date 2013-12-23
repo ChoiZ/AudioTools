@@ -44,4 +44,20 @@ class AudioFileTest extends PHPUnit_Framework_TestCase {
     }
     /* }}} */
 
+    /* public test_tag() {{{ */
+    /**
+     * test_tag
+     *
+     * @access public
+     * @return void
+     */
+    public function test_tag() {
+
+        $file = new AudioFile('Artist - Title.mp3');
+
+        $this->assertTrue($file->tagFile());
+
+    }
+    /* }}} */
+
 }

@@ -83,4 +83,29 @@ class AudioFile {
     }
     /* }}} */
 
+    /* public tagFile() {{{ */
+    /**
+     * tagFile
+     *
+     * @access public
+     * @return bool
+     */
+    public function tagFile() {
+        
+        $filename = str_replace('.mp3','',$this->filename);
+
+        if (!empty($filename)) {
+            $split = explode(' - ', $filename);
+        }
+        
+        /* Only works with "artist - title" we can't have multiple "-" yet ;) */
+        if (count($split) == 2) {
+            return exec('id3v2 -a "'.$split[0].'" -t "'.$split[1].'" "'.$this->filename.'"');
+        }
+
+        return false;
+
+    }
+    /* }}} */
+
 }
